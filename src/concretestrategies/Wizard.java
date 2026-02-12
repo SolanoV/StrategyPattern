@@ -1,8 +1,8 @@
 package concretestrategies;
 
-import interfaces.CharacterType;
+import interfaces.CharacterStrategy;
 
-public class Wizard implements CharacterType {
+public class Wizard implements CharacterStrategy {
     @Override
     public String attack() {
         return "Wizard casts a spell!\n";

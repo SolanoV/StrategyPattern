@@ -1,6 +1,6 @@
 package interfaces;
 
-public interface CharacterType {
+public interface CharacterStrategy {
     public String attack();
     public String defend();
 }

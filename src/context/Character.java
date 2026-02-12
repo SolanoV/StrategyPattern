@@ -1,10 +1,10 @@
 package context;
-import interfaces.CharacterType;
+import interfaces.CharacterStrategy;
 
 public class Character {
-    private CharacterType type;
+    private CharacterStrategy type;
 
-    public Character(CharacterType type) {
+    public Character(CharacterStrategy type) {
         this.type = type;
     }
 

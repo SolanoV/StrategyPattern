@@ -1,8 +1,8 @@
 package concretestrategies;
 
-import interfaces.CharacterType;
+import interfaces.CharacterStrategy;
 
-public class Knight implements CharacterType {
+public class Knight implements CharacterStrategy {
     @Override
     public String attack() {
         return "Knight attacks with a sword!\n";

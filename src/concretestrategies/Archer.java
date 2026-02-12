@@ -1,8 +1,8 @@
 package concretestrategies;
 
-import interfaces.CharacterType;
+import interfaces.CharacterStrategy;
 
-public class Archer implements CharacterType {
+public class Archer implements CharacterStrategy {
     @Override
     public String attack() {
         return "Archer shoots an arrow!\n";
