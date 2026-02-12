@@ -54,3 +54,6 @@ private String type;
 }
 ```
 
+## UML Class Diagram
+---
+![UML Class Diagram Strategy Pattern](src/UMLCD_StrategyPattern.png)
