@@ -10,6 +10,6 @@ public class Wizard implements CharacterType {
 
     @Override
     public String defend() {
-        return "Wizard-\nCreating a magic barrier for defense!";
+        return "Wizard:\nCreating a magic barrier for defense!";
     }
 }

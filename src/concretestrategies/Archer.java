@@ -10,6 +10,6 @@ public class Archer implements CharacterType {
 
     @Override
     public String defend() {
-        return "Archer -\nUsing a shield to defend!";
+        return "Archer:\nUsing a shield to defend!";
     }
 }

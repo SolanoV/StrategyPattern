@@ -10,7 +10,7 @@ public class Knight implements CharacterType {
 
     @Override
     public String defend() {
-        String output = "Knight -\n";
+        String output = "Knight:\n";
         output += "Using a shield to defend!\n";
         output += "Dodgin to avoid attack!\n";
         output += "Creating a magic barrier for defense!";
